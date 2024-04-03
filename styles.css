@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'myFont';
+  src: url('/NHaasGroteskTXPro-55Rg.ttf') format('truetype'),
+       url('/NHaasGroteskTXPro-55Rg.woff') format('woff');
+}
+
+img {
+    width: 100%;
+    height: 100%;
+  }
+
+.container1 {
+    height: 800px;
+    width: 800px;
+}
+
+.container2 {
+  height: 800px;
+  width: 800px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-rows: 160px auto;
+}
+
+.grid-container2{
+  display: grid;
+  grid-template-columns: auto 150px auto;
+}
+
+.grid-container3{
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+}
+
+#home{
+  margin-right: 150px;
+  margin-left: 150px;
+  font-family: myFont;
+}
+
+#interview{
+  text-align: left;
+  margin-top: 80px;
+  font-size: 12pt;
+  font-family: myFont;
+}
+
+#counter{
+  text-align: center;
+  font-size: 50pt;
+  font-weight: bolder;
+  font-family: myFont;
+  margin-top: 20px;
+  margin-bottom: 1px;
+}
+
+#save{
+  text-align: center;
+  font-size: 12pt;
+  font-family: myFont;
+}
+
+#show{
+  text-align: right;
+  margin-top: 80px;
+  font-size: 12pt;
+  font-family: myFont;
+}
+
+#interviewText{
+  text-align: left;
+  font-size: 20pt;
+  margin-left: 400px;
+  margin-right: 400px;
+  font-family: myFont;
+}
+
+#backHome{
+  text-align: left;
+  margin-top: 120px;
+  font-size: 12pt;
+  font-family: myFont;
+}
+
+#combinationTitle{
+  text-align: center;
+  font-size: 50pt;
+  font-weight: bolder;
+  font-family: myFont;
+}
+
+#delete{
+  text-align: right;
+  margin-top: 120px;
+  font-size: 12pt;
+  font-family: myFont;
+}
+
+#question{
+  font-weight: bold;
+}
+
+
+#interviewTitle{
+  text-align: center;
+}
+
+#gridContainer{
+  margin-bottom: 150px;
+}
